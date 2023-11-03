@@ -9,6 +9,12 @@ class Dado:
         y = x**3-9*x+5
         return y
 
+"""
+O código realiza o método da secante para encontrar uma aproximação da raiz de uma função matemática. Ele itera, atualizando os pontos 
+e a função até que a mudança seja menor que a tolerância definida ou até um número máximo de iterações, imprimindo o processo e a raiz 
+se encontrada ou uma mensagem caso contrário.
+"""
+
 def secante():
 
     print("Se retornar 0, a raiz foi encontrada. Senão, retorna 1")

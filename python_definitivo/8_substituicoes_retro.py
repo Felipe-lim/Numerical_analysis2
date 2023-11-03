@@ -8,6 +8,13 @@ class Dado:
    D = [1, -2, 28, 8]
 
 
+"""
+O código resolve um sistema de equações lineares representado 
+por uma matriz triangular superior U e um vetor D, usando o método 
+das substituições retroativas. Ele calcula e imprime o vetor solução 
+do sistema.
+"""
+
 def substituicoes_retroativas(U, D):
     n = len(U) -1  # Determina o número de linhas da matriz U e subtrai 1
     x = [0] * (n + 1)  # Inicialize o vetor de solução x com zeros

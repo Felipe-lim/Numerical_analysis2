@@ -9,6 +9,12 @@ class Dado:
         y  = x**3-9*x+5
         return y
 
+"""
+O código executa o método da falsa posição (regula falsi) para encontrar uma raiz de uma função. 
+Ele verifica se existe uma mudança de sinal entre dois pontos, ajusta intervalos e calcula novos 
+pontos iterativamente até atender a tolerância de erro ou exceder o limite de iterações.
+"""
+
 def regulafalsi():
 
     print("Se retornar 0, a raiz foi encontrada. Senao, retorna 1")

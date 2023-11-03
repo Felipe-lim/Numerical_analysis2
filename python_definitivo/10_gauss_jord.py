@@ -17,6 +17,12 @@ def print_matrix(matrix, mb):
 
 import copy
 
+"""
+Este código realiza o método de Gauss-Jordan para resolver sistemas lineares. 
+Ele transforma a matriz dos coeficientes em uma matriz identidade, simultaneamente 
+encontrando a solução no vetor de termos independentes, também calculando o determinante.
+"""
+
 def gauss_jord(A, B):
     # Criando cópias profundas de A e B para evitar modificar as listas originais
     a = copy.deepcopy(A)

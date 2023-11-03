@@ -14,6 +14,11 @@ class Dado:
         df_x = (Dado.f(x + h) - Dado.f(x - h)) / (2 * h)
         return round(df_x, 5)  # Arredondando o valor da derivada.
 
+"""
+O código implementa o método de Newton-Raphson para encontrar uma aproximação de uma raiz de uma função, utilizando uma derivada 
+numérica. Começando de um ponto inicial, o método itera melhorando a estimativa até que a solução satisfaça uma tolerância de erro 
+ou até um número máximo de iterações.
+"""
 
 def newton():
     tol = Dado.eps  # Obtendo a tolerância do erro.

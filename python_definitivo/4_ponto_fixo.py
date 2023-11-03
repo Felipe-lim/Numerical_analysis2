@@ -9,6 +9,13 @@ class Dado:
         y = (x**3 + 5)/9
         return y
 
+"""
+O código implementa o método do ponto fixo para encontrar a raiz de uma função. 
+Ele itera uma função manipulada g(x), partindo de um valor inicial, até que a solução 
+convirja para um ponto fixo com tolerância definida ou o número máximo de iterações 
+seja alcançado.
+"""
+
 def ponto_fixo():
     p0 = Dado.x_start  # Inicializando com o valor de partida.
     TOL = Dado.eps  # Tolerância que determinará a precisão da solução.

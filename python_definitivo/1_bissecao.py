@@ -14,6 +14,12 @@ class Dado:
         return y
 
 
+"""
+O código realiza o método da bisseção para encontrar a raiz de uma função matemática. Ele verifica se há uma mudança de sinal entre 
+os pontos iniciais do intervalo e, se houver, realiza iterações, reduzindo o intervalo pela metade a cada passo até que a aproximação 
+da raiz esteja dentro da tolerância de erro especificada.
+"""
+
 # Função que implementa o método da bisseção.
 def biss():
 

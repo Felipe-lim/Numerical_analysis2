@@ -9,6 +9,12 @@ class Dado:
         y = x**3 - 9*x + 5
         return y
 
+"""
+O código executa o método de Pégaso para encontrar uma raiz aproximada de uma função matemática 
+no intervalo [a, b]. Ele ajusta dinamicamente o intervalo enquanto preserva a convergência, usando 
+a tolerância de erro e o número máximo de iterações como critérios de parada.
+"""
+
 def pegaso():
     # Inicializando variáveis com os valores do problema.
     a = Dado.a

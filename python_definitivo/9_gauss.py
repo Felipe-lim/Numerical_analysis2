@@ -40,6 +40,14 @@ def print_matrix(matrix, mb):
 
 import copy
 
+"""
+
+O código executa o método de eliminação de Gauss para converter 
+a matriz A em uma forma triangular superior, em seguida, aplica 
+substituições retroativas para resolver o sistema Ax=B, encontrando 
+o vetor solução para as variáveis.
+"""
+
 def gauss(A, B):
     # Criando cópias profundas das listas para evitar modificar as originais
     a = copy.deepcopy(A)

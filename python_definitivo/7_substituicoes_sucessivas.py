@@ -7,6 +7,13 @@ class Dado:
             
     C = [4, 1, 48, 6]
 
+"""
+O código executa substituições sucessivas para resolver sistemas lineares 
+com uma matriz triangular inferior (L). A função calcula e imprime o vetor 
+solução (x), processando uma linha por vez e subtraindo os produtos conhecidos 
+das soluções anteriores.
+"""
+
 def substituicoes_sucessivas(L, C):
 
     n = len(L)  # Determina o número de linhas da matriz L

@@ -8,8 +8,7 @@ class Dado:
     # Ponto para estimativa
     z = 115
 
-    # Resultado esperado da interpolação
-    #resultado = 0.4456
+
 
 """
 Este código implementa o método de interpolação de Gregory-Newton para estimar valores dentro de um conjunto de dados conhecidos.
